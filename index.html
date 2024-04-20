@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+
+        <!-- header -->
+        <div id="header">
+            <nav>
+                <img src="images/logo.png" width="250px" height="90px">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                    <p>MERN Stack Developer</p>
+                    <h1>Hi, I'm <span>Rishika</span>
+                    <br>Dhiman from India.</h1>
+            </div>
+        </div>
+
+        
+
+        <!-- about -->
+        <div id="about">
+            <div class="about-col-1">
+                <img src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvay1wci1zMzEtdGVuLTA2NC1qb2IzMy1sLWtyeXJpeHQ4LmpwZw.jpg?s=PGlzgeWbiIXGQ0BrzKbQrVZ0mtsfd3aD3hAfwTn1c1A" width="400px" height="500px">
+            </div>
+            <div class="about-col-2">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga accusamus enim nesciunt aperiam, ea officia nam quia a deleniti optio autem earum consequuntur sunt modi distinctio, eaque blanditiis? Iure, dolore! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quae.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skiils</p>  
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend Development</span><br>Create Website UI</li>
+                        <li><span>Backend Development</span><br>Connect frontend to database</li>
+                        <li><span>Computer vision</span><br>Create projects using OpenCv</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Frontend Development</span><br>Have experience of 6-months</li>
+                        <li><span>Backend Deveoplement</span><br>Have experience of 2-months</li>
+                        <li><span>Computer vision</span><br>Have experience of 4-months</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>High school</span><br>Completed in 2021</li>
+                        <li><span>Graduate</span><br>Completed in 2025</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- services -->
+        <div id="services">
+            <h1>My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h1>Frontend Development</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, ipsam!</p>
+                    <a href="/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h1>Backend Deveoplement</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, ipsam!</p>
+                    <a href="/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-app-store"></i>
+                    <h1>Computer vision</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, ipsam!</p>
+                    <a href="/">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- create portfolio -->
+        <div id="portfolio">
+            <h1>My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://flatironschool.com/wp-content/uploads/2022/06/what-is-ux-ui-product-design.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.Download it from play store!</p>
+                        <a href="/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://images04.nicepage.com/feature/511177/create-any-website-with-powerful-website-builder-website-builder.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world.Download it from play store!</p>
+                        <a href="/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://cdn.dribbble.com/users/1615584/screenshots/15571949/web_1920___346_4x.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.Download it from play store!</p>
+                        <a href="/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+            
+            <!-- <a class="see-btn" href="/">See more</a> -->
+            
+            <div id="contact">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a><i class="fab fa-facebook"></i></a>
+                        <a><i class="fab fa-twitter-square"></i></a>
+                        <a><i class="fab fa-instagram"></i></a>
+                        <a><i class="fab fa-linkedin"></i></a>
+                        <button type="submit" class="btn"><a href="images/about-me.jpg" download >Download cv</a></button>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name"/>
+                        <input type="email" name="Email" placeholder="Your Email"/>
+                        <textarea name="Message" placeholder="Your Message" rows="8"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+
+        </div>
+
+            <footer>
+                <p>Copyright@ made with <i class="fas fa-heart"></i> by Rishika</p>
+            </footer>
+            
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbySPuq9f99ZbPHzZ4f3PaQ0WvIxr3STA0Ovg4ofpAItIGGliyEn6IkHimZkW7377vGi/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Mesaage sent succesfully!"
+            setTimeout(function(){
+                msg.innerHTML = "";
+            }, 2000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
+
+
+<!-- I am Rishika, i belong to ambala cantt, Haryana. I am a girl with a lot of dreams to fulfill. I am a <span>passianote learner</span>, who have interest in many fields. I am pursuing my bachlor's in computer science from Chandigarh university, Mohali.I have quite interset in Mern stack development. I also have good knowledge in python, c++, computer vision.I was also a <span>NCC Cadet</span>  in my school. -->
